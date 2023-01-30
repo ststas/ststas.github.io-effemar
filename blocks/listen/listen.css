@@ -1,0 +1,12 @@
+.listen {
+  display: flex;
+  width: 100%;
+  min-height: 500px;
+  display: -ms-flexbox;
+  display: -webkit-flexbox;
+  display: -moz-flexbox;
+  background-color: #121214;
+  color:aquamarine;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
