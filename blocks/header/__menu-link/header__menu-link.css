@@ -1,7 +1,5 @@
-.menu__element {
-  margin: 0;
-  width: 100px;
-  height: 20px;
+.header__menu-link {
+  text-decoration: none;
   font-family: 'Roboto-Regular';
   font-style: normal;
   font-weight: 400;
@@ -10,4 +8,9 @@
   text-align: center;
   color: #A6A8AD;
 
+}
+
+.header__menu-link:hover {
+  opacity: 0.5;
+  transition: 0.2s;
 }
