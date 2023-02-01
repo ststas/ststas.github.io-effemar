@@ -1,0 +1,10 @@
+.bio__text {
+  width: 40%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: absolute;
+  top: 95px;
+  left: 50px; 
+}

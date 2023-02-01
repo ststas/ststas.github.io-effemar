@@ -1,5 +1,5 @@
-.header__logo {
-  height: 100px;
+.logo {
+  height: 70px;
   width: 200px;
   margin: 0 auto 20px;
   background-image: url(../../../images/logo_small.png);

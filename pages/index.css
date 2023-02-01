@@ -4,19 +4,40 @@
 @import url(../blocks/page/page.css);
 @import url(../fonts/fonts.css);
 
+/* LOGO */
+@import url(../blocks/logo/logo.css);
+
 /* HEADER */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-element/header__menu-element.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 
+
 /* PAGE */
 @import url(../blocks/bio/bio.css);
-@import url(../blocks/bio/__anchor/bio__anchor.css);
+@import url(../blocks/bio/__background-pic/bio__background-pic.css);
+@import url(../blocks/bio/__header/bio__header.css);
+@import url(../blocks/bio/__text/bio__text.css);
+@import url(../blocks/bio/__paragraph/bio__paragraph.css);
+@import url(../blocks/bio/__span/bio__span.css);
+
+
 @import url(../blocks/listen/listen.css);
+@import url(../blocks/listen/__background-pic/listen__background-pic.css);
+@import url(../blocks/listen/__header/listen__header.css);
+@import url(../blocks/listen/__card/listen__card.css);
+@import url(../blocks/listen/__label/listen__label.css);
+@import url(../blocks/listen/__iframes/listen__iframes.css);
+@import url(../blocks/listen/__iframe/listen__iframe.css);
+
+
+
 @import url(../blocks/watch/watch.css);
+@import url(../blocks/watch/__header/watch__header.css);
+
 @import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__header/contacts__header.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);

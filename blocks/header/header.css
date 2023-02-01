@@ -1,7 +1,7 @@
 .header {
   position: sticky;
   top: 0;
-  min-height: 200px;
+  min-height: 100px;
   padding: 30px 0;
   display: flex;
   display: -ms-flexbox;
@@ -11,6 +11,5 @@
   justify-content: center;
   overflow: hidden;
   background-color: #121214;
-  border: 1px solid green;
-  box-sizing: border-box;
+  z-index: 10;
 }

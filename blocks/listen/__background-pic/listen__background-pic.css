@@ -1,0 +1,10 @@
+.listen__background-pic {
+  height: 600px;
+  width: 100%;
+  margin: 0;
+  filter: brightness(55%);
+  background-image: url(../../../images/bio-background-pic_600-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,10 @@
+.bio__background-pic {
+  height: 650px;
+  width: 100%;
+  margin: 0;
+  filter: brightness(45%);
+  background-image: url(../../../images/bio-background-pic_700new3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
