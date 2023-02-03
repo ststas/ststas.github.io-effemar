@@ -7,6 +7,9 @@
 /* LOGO */
 @import url(../blocks/logo/logo.css);
 
+/* ANCHOR */
+@import url(../blocks/anchor/anchor.css);
+
 /* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
@@ -15,32 +18,39 @@
 
 
 /* PAGE */
+@import url(../blocks/header-of-block/header-of-block.css);
+
 @import url(../blocks/bio/bio.css);
 @import url(../blocks/bio/__background-pic/bio__background-pic.css);
-@import url(../blocks/bio/__header/bio__header.css);
 @import url(../blocks/bio/__text/bio__text.css);
 @import url(../blocks/bio/__paragraph/bio__paragraph.css);
 @import url(../blocks/bio/__span/bio__span.css);
 
-
 @import url(../blocks/listen/listen.css);
 @import url(../blocks/listen/__background-pic/listen__background-pic.css);
-@import url(../blocks/listen/__header/listen__header.css);
+@import url(../blocks/listen/__iframes/listen__iframes.css);
 @import url(../blocks/listen/__card/listen__card.css);
 @import url(../blocks/listen/__label/listen__label.css);
-@import url(../blocks/listen/__iframes/listen__iframes.css);
 @import url(../blocks/listen/__iframe/listen__iframe.css);
 
-
-
 @import url(../blocks/watch/watch.css);
-@import url(../blocks/watch/__header/watch__header.css);
+@import url(../blocks/watch/__background-pic/watch__background-pic.css);
+@import url(../blocks/watch/__iframes/watch__iframes.css);
+@import url(../blocks/watch/__card/watch__card.css);
+@import url(../blocks/watch/__label/watch__label.css);
+@import url(../blocks/watch/__iframe/watch__iframe.css);
 
 @import url(../blocks/contacts/contacts.css);
-@import url(../blocks/contacts/__header/contacts__header.css);
+@import url(../blocks/contacts/__background-pic/contacts__background-pic.css);
+@import url(../blocks/contacts/__text/contacts__text.css);
+@import url(../blocks/contacts/__text-label/contacts__text-label.css);
+@import url(../blocks/contacts/__text-main/contacts__text-main.css);
+@import url(../blocks/contacts/__link/contacts__link.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
-
-
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__soclal-icon/footer__social-icon.css);
 

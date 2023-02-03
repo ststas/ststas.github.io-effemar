@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,25 +13,26 @@
     <header class="header">
       <div class="logo"></div>
         <nav class="header__menu"> 
-              <div class="menu__element">
+              <div class="header__menu-element">
                 <a href="#bio" class="header__menu-link">Bio</a>
               </div>
-              <div class="menu__element">
+              <div class="header__menu-element">
                 <a href="#listen" class="header__menu-link">Listen</a>
               </div>
-              <div class="menu__element">
+              <div class="header__menu-element">
                 <a href="#watch" class="header__menu-link">Watch</a>
               </div>
-              <div class="menu__element">
+              <div class="header__menu-element">
                 <a href="#contacts" class="header__menu-link">Contacts</a>
               </div>
         </nav>
     </header>
 
     <main class="content">
-      <section class="bio" id="bio">
+      <section class="bio">
+        <div class="anchor" id="bio"></div>
         <div class="bio__background-pic"></div>
-        <h2 class="bio__header">Bio</h2>
+        <h2 class="header-of-block">Bio</h2>
         <div class="bio__text">
           <p class="bio__paragraph">
             <span class="bio__span">Effemar</span> is the Swiss-bred duo formed of <span class="bio__span">Doane Allan</span> and <span class="bio__span">Julien Grosjean</span> emerged on the scene in late 2020. Their first single
@@ -54,34 +55,80 @@ Effemar's position in the scene.
         </div>
       </section>
 
-      <section class="listen" id="listen">
+      <section class="listen">
+        <div class="anchor" id="listen"></div>
         <div class="listen__background-pic"></div>
-
-        <h2 class="listen__header">Listen</h2>
+        <h2 class="header-of-block">Listen</h2>
         <div class="listen__iframes">
           <div class="listen__card">
-            <iframe class="listen__iframe" src="https://open.spotify.com/embed/album/12V1BsRT4CKWOpBgEcckKE?utm_source=generator" frameBorder="0" allowfullscreen=""; allow=" clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe class="listen__iframe" src="https://open.spotify.com/embed/album/12V1BsRT4CKWOpBgEcckKE?utm_source=generator" allowfullscreen="" allow=" clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             <p class="listen__label">Latest release</p>
           </div>
           <div class="listen__card">
-            <iframe class="listen__iframe" src="https://open.spotify.com/embed/playlist/7taXkySjnWLJ1cZbebG3FP?utm_source=generator"  frameBorder="0" allowfullscreen=""; allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            <p class="listen__label">Effemar's Mood</p>
+            <iframe class="listen__iframe" src="https://open.spotify.com/embed/playlist/7taXkySjnWLJ1cZbebG3FP?utm_source=generator" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p class="listen__label">Mood</p>
           </div>
         </div>
       </section>
       
-      <section class="watch" id="watch">
-        <h2 class="watch__header">Watch</h2>
+      <section class="watch">
+        <div class="anchor" id="watch"></div>
+        <div class="watch__background-pic"></div>
+        <h2 class="header-of-block">Watch</h2>
+        <div class="watch__iframes">
+          <div class="watch__card">
+            <iframe class="watch__iframe"  src="https://www.youtube.com/embed/Hq_84t_7FSM" title="YouTube video player" allowfullscreen></iframe>
+            <p class="watch__label">'Ocean' Live</p>
+          </div>
+          <div class="watch__card">
+            <iframe class="watch__iframe" src="https://www.youtube.com/embed/-uH1J0mDYTI" title="YouTube video player" allowfullscreen></iframe>
+            <p class="watch__label">'Deep Sea' Live</p>
+          </div>
+        </div>
       </section>
       
-      <section class="contacts" id="contacts">
-        <h2 class="contacts__header">Contacts</h2>
+      <section class="contacts">
+        <div class="anchor" id="contacts"></div>
+        <div class="contacts__background-pic"></div>
+        <h2 class="header-of-block">Contacts</h2>
+        <div class="contacts__text">
+          <h3 class="contacts__text-label">MANAGEMENT</h3>
+          <p class="contacts__text-main"><a class="contacts__link" href="mailto:dmitry@noux.me">dmitry@noux.me</a></p>
+          <h3 class="contacts__text-label">BOOKING INQUIRIES</h3>
+          <p class="contacts__text-main"><a class="contacts__link" href="mailto:dmitry@noux.me">dmitry@noux.me</a></p>
+          <h3 class="contacts__text-label">PRESS INQUIRIES</h3>
+          <p class="contacts__text-main"><a class="contacts__link" href="mailto:dmitry@noux.me">dmitry@noux.me</a></p>
+          <h3 class="contacts__text-label">COLLABS & DEMOS</h3>
+          <p class="contacts__text-main"><a class="contacts__link" href="mailto:effemar.music@gmail.com">effemar.music@gmail.com</a></p>
+        </div>
       </section>
     
     </main>
 
     <footer class="footer">
+      <div class="footer__socials">
+        <div class="footer__social">
+          <a href="https://soundcloud.com/effemar" target="_blank" class="footer__link"><img src="./images/logo/soundcloud-white.png" class="footer__social-icon" alt="soundcloud icon"></a>
+        </div>
+        <div class="footer__social">
+          <a href="https://music.apple.com/ru/artist/effemar/1537109840?l=en" target="_blank" class="footer__link"><img src="./images/logo/apple-music-white.png" class="footer__social-icon" alt="apple music icon"></a>
+        </div>
+        <div class="footer__social">
+          <a href="https://open.spotify.com/artist/3QD8Op2asIft2YDqX154NB?si=yepvT0XJQdS-d5J1pNRRcA" target="_blank" class="footer__link"><img src="./images/logo/spotify-white.png" class="footer__social-icon" alt="spotify icon"></a>
+        </div>
+      </div>
       <div class="logo"></div>
+      <div class="footer__socials">
+        <div class="footer__social">
+          <a href="https://www.youtube.com/@effemar6170" target="_blank" class="footer__link"><img src="./images/logo/youtube-white.png" class="footer__social-icon" alt="youtube icon"></a>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/effemarmusic/" target="_blank" class="footer__link"><img src="./images/logo/instagram-white.png" class="footer__social-icon" alt="instagram icon"></a>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.tiktok.com/@effemarmusic" target="_blank" class="footer__link"><img src="./images/logo/tik-tok-white.png" class="footer__social-icon" alt="tik tok icon"></a>
+        </div>
+      </div>
     </footer>
 
 

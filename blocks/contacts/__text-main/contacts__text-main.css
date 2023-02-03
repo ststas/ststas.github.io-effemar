@@ -1,0 +1,14 @@
+.contacts__text-main {
+  margin: 0 0 60px 0;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: 0.3px;
+  color: white;
+  
+}
+
+.contacts__text-main:last-of-type {
+  margin-bottom: 0;
+}

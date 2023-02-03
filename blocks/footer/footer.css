@@ -5,10 +5,8 @@
   display: -ms-flexbox;
   display: -webkit-flexbox;
   display: -moz-flexbox;
-  flex-flow: column;
-  justify-content: center;
-  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: #121214;
-  border: 1px solid green;
-  box-sizing: border-box;
 }

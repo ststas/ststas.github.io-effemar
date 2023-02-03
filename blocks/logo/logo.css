@@ -1,8 +1,8 @@
 .logo {
   height: 70px;
   width: 200px;
-  margin: 0 auto 20px;
-  background-image: url(../../../images/logo_small.png);
+  margin: 0;
+  background-image: url(../../../images/logo-small.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;

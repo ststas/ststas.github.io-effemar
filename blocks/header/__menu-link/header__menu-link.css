@@ -1,13 +1,6 @@
 .header__menu-link {
   text-decoration: none;
-  font-family: 'Roboto-Regular';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
-  text-align: center;
   color: #A6A8AD;
-
 }
 
 .header__menu-link:hover {

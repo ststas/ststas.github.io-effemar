@@ -1,7 +1,7 @@
 .contacts {
-  display: flex;
   width: 100%;
-  min-height: 500px;
+  min-height: 600px;
+  display: flex;
   display: -ms-flexbox;
   display: -webkit-flexbox;
   display: -moz-flexbox;
@@ -10,6 +10,5 @@
   position: relative;
   overflow: hidden;
   background-color: #121214;
-  border: 1px solid red;
-  box-sizing: border-box;
+ 
 }

@@ -1,0 +1,10 @@
+.contacts__link {
+  text-decoration: none;
+  color: white;
+}
+
+.contacts__link:hover {
+
+  transition: 0.2s;
+  color: #A6A8AD;
+}

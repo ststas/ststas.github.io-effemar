@@ -6,7 +6,8 @@
   display: -webkit-flexbox;
   display: -moz-flexbox;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items: left;
   position: relative;
   overflow: hidden;
   background-color: #121214;

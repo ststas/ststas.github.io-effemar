@@ -1,0 +1,8 @@
+.footer__socials {
+  min-height: 40px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

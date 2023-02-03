@@ -1,13 +1,13 @@
-.listen__background-pic {
+.contacts__background-pic {
   height: 600px;
   width: 100%;
   margin: 0;
-  filter: brightness(55%);
-  background-image: url(../../../images/listen-background-pic.jpg);
+  filter: brightness(50%);
+  background-image: url(../../../images/contacts-background-pic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
   top: 0;
-  left: 0;;
+  right: 0;
 }
